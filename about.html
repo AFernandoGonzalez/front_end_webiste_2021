@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/c720c7699a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-container sticky">
+        <!--logo icon  -->
+          <a class="nav-logo" href="" id="navbar-logo">FGCODES</a>
+          <!-- toggle mobile -->
+          <div class="navbar-toggle" id="mobile-menu">
+            <span class="bar"></span> <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <!-- ul -->
+          <ul class="navbar-menu">
+            <li class="navbar-item">
+              <a href="/" class="navbar-links" id="home-page">Home</a>
+            </li>
+            <li class="navbar-item">
+              <a href="./about.html" class="navbar-links" id="about-page">About</a>
+            </li>
+            <li class="navbar-item">
+              <a href="./porfolio.html" class="navbar-links" id="portfolio-page"
+                >Portfolio</a>
+            </li>
+            <li class="navbar-item">
+              <a href="./contact.html" class="navbar-links" id="contact-page"
+                >Contact</a>
+            </li>
+            <li class="navbar-item">
+              <a href="./blog.html" class="navbar-links" id="blog-page"
+                >Blog</a>
+            </li>
+            <!-- <li class="navbar-btn">
+              <a href="#" class="button" id="signin">SignIn</a>
+            </li>
+            <li class="navbar-btn">
+              <a href="#" class="button1" id="signup">SignUp</a>
+            </li> -->
+          </ul>
+        </div>
+      </nav>
+
+
+      <!-- About -->
+
+      
+     
+      
+      
+
+        <!-- Footer Section -->
+      <div class="footer-container">
+        <div class="footer-links">
+          <div class="footer-link-wrapper">
+              <div class="footer-link-items">
+              <a href="/" id="footer-logo">FGCODES</a>
+            </div>
+            <div class="footer-link-items">
+              <h2>About Me</h2>
+              <a href="{% url 'mainpages:about-page' %}">Resume</a>
+            </div>
+            <div class="footer-link-items">
+              <h2>Contact Me</h2>
+              <a href="{% url 'mainpages:contact-page' %}">Contact</a>
+            </div>
+          </div>
+          <div class="footer-link-wrapper">
+            <div class="footer-link-items">
+              <h2>Videos</h2>
+              <a href="/"> Tutorials</a> <a href="/">Python</a>
+              <a href="/">Django</a>
+            </div>
+            <div class="footer-link-items">
+              <h2>Social Media</h2>
+              <a href="https://github.com/" target="_blank" >Github</a>
+              <a href="https://www.instagram.com/" target="_blank" >Instagram</a> 
+              <a href="https://www.facebook.com/" target="_blank" >Facebook</a>
+              <a href="https://www.youtube.com/" target="_blank" >Youtube</a> 
+              <a href="https://twitter.com/" target="_blank" >Twitter</a>
+            </div>
+          </div>
+        </div>
+        <section class="social-media">
+          <div class="social-media-wrap">
+            <p class="website-rights">© FGCODES 2021. All rights reserved</p>
+            <div class="social-icons">
+              <a href="https://github.com/" class="social-icon-link" target="_blank" ><i class="fab fa-github"></i></a>
+              <a href="https://www.facebook.com/" class="social-icon-link" target="_blank" ><i class="fab fa-facebook"></i></a>
+              <a href="https://www.instagram.com/" class="social-icon-link" target="_blank" ><i class="fab fa-instagram"></i></a>
+              <a href="https://www.youtube.com/" class="social-icon-link" target="_blank" ><i class="fab fa-youtube"></i></a>
+              <a href="https://www.linkedin.com/" class="social-icon-link" target="_blank" ><i class="fab fa-linkedin"></i></a>
+              <a href="https://twitter.com/" class="social-icon-link" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </section>
+      </div>
+      </section>
+
+    
+    
+    
+
+    <!-- Script -->
+    <script src="./script.js"></script>
+</body>
+</html>
