@@ -1,7 +1,7 @@
-window.addEventListener('load', function(){
-    const loader = document.querySelector('.loader')
-    loader.className += ' hidden';
-})
+// window.addEventListener('load', function(){
+//     const loader = document.querySelector('.loader')
+//     loader.className += ' hidden';
+// })
 
 
 // navbar
@@ -19,8 +19,8 @@ const mobileMenu = () => {
 menu.addEventListener('click', mobileMenu);
 
 
-window.addEventListener('scroll', highlightMenu);
-window.addEventListener('click', highlightMenu);
+// window.addEventListener('scroll', highlightMenu);
+// window.addEventListener('click', highlightMenu);
 
 //  Close mobile Menu when clicking on a menu item
 const hideMobileMenu = () => {
@@ -33,7 +33,6 @@ const hideMobileMenu = () => {
 
 menuLinks.addEventListener('click', hideMobileMenu);
 navLogo.addEventListener('click', hideMobileMenu);
-
 
 
 
